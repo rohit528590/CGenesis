@@ -51,34 +51,18 @@ int main()
 }
 
 /*
-VARIABLE CONCEPTS BREAKDOWN:
 
-1. DECLARATION: 
-   - Tells compiler to reserve memory for a variable
-   - Syntax: data_type variable_name;
-   - Example: int age;
-
-2. INITIALIZATION:
-   - Assigns a value to the declared variable
-   - Syntax: variable_name = value;
-   - Example: age = 25;
-
-3. COMBINED APPROACH:
-   - Declaration and initialization together
-   - Syntax: data_type variable_name = value;
-   - Example: int age = 25;
-
-4. MEMORY ALLOCATION:
+1. MEMORY ALLOCATION:
    - Each variable occupies specific memory space
    - Size depends on data type (int = 4 bytes typically)
    - Compiler manages memory allocation automatically
 
-5. FORMAT SPECIFIERS:
+2. FORMAT SPECIFIERS:
    - %d for integers (decimal)
    - Tell printf() how to interpret and display variables
    - Must match the variable data type
 
-BEST PRACTICES:
+3. BEST PRACTICES:
 ✓ Initialize variables when declared when possible
 ✓ Use meaningful variable names
 ✓ Group related variable declarations
