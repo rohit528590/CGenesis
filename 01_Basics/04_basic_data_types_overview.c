@@ -82,32 +82,6 @@ PRIMARY DATA TYPES:
 │ char        │ 1            │ -128 to 127 │ %c                   │
 └─────────────┴──────────────┴─────────────┴──────────────────────┘
 
-WHEN TO USE EACH TYPE:
-
-INT - Use for:
-- Counting (students, items, iterations)
-- IDs and reference numbers
-- Years, ages, quantities
-- Array indices and loop counters
-
-FLOAT - Use for:
-- Percentages and ratios
-- Basic mathematical calculations
-- Graphics coordinates  
-- Simple decimal measurements
-
-DOUBLE - Use for:
-- Scientific calculations
-- Financial applications requiring precision
-- Mathematical constants (π, e)
-- Large numerical computations
-
-CHAR - Use for:
-- Single letters and digits
-- Menu choices (A, B, C)
-- Status flags (Y/N)
-- ASCII characters and symbols
-
 FORMAT SPECIFIERS PRECISION:
 - %d - Integer (whole numbers)
 - %f - Float (default 6 decimal places)
