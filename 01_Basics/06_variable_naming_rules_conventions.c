@@ -88,25 +88,4 @@ _counter             │ my variable (contains space)
 grade1               │ int (C keyword)
 MAX_SIZE             │ @username (special character)
 temperature_C        │ student$ (special character)
-
-NAMING CONVENTIONS (RECOMMENDED):
-================================
-
-1. SNAKE_CASE (Traditional C style):
-   - student_name, total_marks, max_attempts
-   - Use lowercase with underscores
-
-2. camelCase (Alternative style):
-   - studentName, totalMarks, maxAttempts  
-   - First letter lowercase, capitalize subsequent words
-
-3. CONSTANTS (All uppercase):
-   - MAX_SIZE, PI_VALUE, DEFAULT_TIMEOUT
-
-4. DESCRIPTIVE NAMES:
-   - Use 'studentAge' instead of 'a'
-   - Use 'totalPrice' instead of 'tp'
-   - Code should be self-documenting
-
-Choose one style and be consistent throughout your program!
 */
