@@ -1,34 +1,37 @@
-// Create Number Guessing Game Using Do-While Loop.
-// You can use chatgpt for only generate a random number from 1 to 100.
+// Number Guessing Game
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 int main()
 {
+    printf("Welcome to Number Guessing Game\n");
     srand(time(0)); // Seed the random number generator.
     int random_number = (rand() % 100) + 1; // Generate a random number between 1 and 100.
 
-    printf("\n Hi, I am Computer I think a Number Can you Guess the Number \n");
+    printf("\nHi, I am Computer I think a Number between (1 to 100), Can you Guess the Number :");
 
-    int guess, guesses = 0;
+    int guess, no_of_guesses = 0;
     do
     {
-        printf(" Guess the Number : ");
+        printf("\nEnter your Guess : ");
         scanf("%d", &guess);
 
         if (guess > random_number)
         {
-            printf(" Please, Guess Small Number\n ");
+            printf("Guess a Smaller Number.\n");
         }
 
         else if (random_number > guess)
         {
-            printf(" Please, guess Large Number\n ");
+            printf("Guess a Larger number.\n");
         }
 
-        guesses++;
-    } while (guess != random_number);   
-    
-    printf(" Conguration You guess right in : %d guesses ", guesses); 
+        no_of_guesses++;
+    } while (guess != random_number);
+
+    printf("Conguration !!!You have successfully guessed the Number in %d attempts\n", no_of_guesses);
+    printf("\nBye Bye, Thanks for Playing.\n");
+    printf("Developed By : Rohit Kumar\n");
     return 0;
 }
