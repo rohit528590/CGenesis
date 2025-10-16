@@ -1,4 +1,5 @@
 # Practice Questions on 2D Arrays
+=================================
 
 1. Write a program to initialize every element of a 2D matrix with the value N, where the matrix dimensions (rows and columns) 
 are provided by the user.
