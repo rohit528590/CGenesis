@@ -2,10 +2,10 @@
 25. In-place program to transform a given square matrix (n × n) by reversing elements of every odd-indexed column.
     Example (rows = 4, cols = 4):
     Input Matrix:               Transformed Matrix:
-    1   2   3   4               1   8   3   12
-    5   6   7   8               5   6   7   8
-    9   10  11  12              9   10  11  4
-    13  14  15  16              13  2   15  16
+    1   2   3   4               4   8   12  16
+    5   6   7   8               15  11  7   3
+    9   10  11  12              2   6   10  14
+    13  14  15  16              13  9   5   1
 */
 
 #include <stdio.h>
@@ -85,7 +85,7 @@ int main()
     {
         for (int j = 0; j < size; j++)
         {
-            printf("%d ", matrix[i][j]);
+            printf("%d\t", matrix[i][j]);
         }
         
         printf("\n");
